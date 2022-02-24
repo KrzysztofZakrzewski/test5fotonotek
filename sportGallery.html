@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fotonotek</title>
+  <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous"> -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" /> -->
+  <link rel="stylesheet" href="./dist/css/style-for-galerys.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Acme&family=DM+Sans&family=Fredoka+One&family=Montserrat+Subrayada:wght@700&family=Montserrat:ital,wght@0,400;0,700;1,900&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/9667a04066.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <a class="skip-to-about" href="#home">
+    Pomiń nawigację
+  </a>
+
+
+
+  <nav class="navbar">
+    <a class="navbar-brand" href="#"><i class="fas fa-camera"></i> <span class="logo">Fotonotek.pl</span></a>
+
+    <ul class="nav-list" id="nav-list">
+      <li class="nav-link">
+        <a aria-current="page" href="index.html">Strona główna</a>
+      </li>
+    </ul>
+
+    <div class="burger" id="toggle-burger">
+      <div class="burger-line"></div>
+      <div class="burger-line"></div>
+      <div class="burger-line"></div>
+    </div>
+    <div class="back-to-top-div">
+      <button class="back-to-top">
+        <p class="back-to-top-chevron">⬆</p>
+       <p class="back-to-top-text">Na górę</p>
+      </button>
+    </div>
+  </nav>
+
+  <header class="section-header" id="home">
+
+    <h2 class="caption">Eventy sportowe</h2>
+    <div class="underline"></div>
+  </header>
+
+
+  <main id="main-content">
+
+    <section class="section-gallery">
+      <div class="wrapper">
+        <ul class="gallery">
+          <li class="photo"><img tabindex="0" src="dist/img/sport-gallery/img-sport-1.jpg" alt="Tor wyścigów konnych Służewiec, prezentacja koni"></li>
+          <li class="photo"><img tabindex="0" src="dist/img/sport-gallery/img-sport-2.jpg" alt="Koń podczas wyścigu"></li>
+          <li class="photo"><img tabindex="0" src="dist/img/sport-gallery/img-sport-3.jpg" alt="Czarno-białe zdjęcie rugbisty trzymającego piłkę"></li>
+          <li class="photo"><img tabindex="0" src="dist/img/sport-gallery/img-sport-4.jpg" alt="Rugbista kładący piłke podczas meczu"></li>
+          <li class="photo"><img tabindex="0" src="dist/img/sport-gallery/img-sport-5.jpg" alt="Biegnący rugbista"></li>
+          <li class="photo"><img tabindex="0" src="dist/img/sport-gallery/img-sport-6.jpg" alt="Pięciu Rugbistów w zwarciu"></li>
+          <li class="photo"><img tabindex="0" src="dist/img/sport-gallery/img-sport-7.jpg" alt="Rugbiści walczący o piłkę"></li>
+          <li class="photo"><img tabindex="0" src="dist/img/sport-gallery/img-sport-8.jpg" alt="Rugbiści w zwarciu"></li>
+          <li class="photo"><img tabindex="0" src="dist/img/sport-gallery/img-sport-9.jpg" alt="Rugbiści walczący o piłkę"></li>
+          <li class="photo"><img tabindex="0" src="dist/img/sport-gallery/img-sport-10.jpg" alt="Rugbiści walczący o piłkę"></li>
+          <li class="photo"><img tabindex="0" src="dist/img/sport-gallery/img-sport-11.jpg" alt="Zawodnik rugby z bliska"></li>
+          <li class="photo"><img tabindex="0" src="dist/img/sport-gallery/img-sport-12.jpg" alt="Mężczyzna na skóterze wodnym"></li>
+          <li class="photo"><img tabindex="0" src="dist/img/sport-gallery/img-sport-13.jpg" alt="Mężczyzna na skóterze wodnym z daleka"></li>
+          <li class="photo"><img tabindex="0" src="dist/img/sport-gallery/img-sport-14.jpg" alt="Kobieta na skóterze wodnym"></li>
+        </ul>
+
+      </div>
+      <div class="popup popup-hidden">
+        <img src="" class="popup__img" alt="">
+        <button aria-label="zamknij galerię, close gallery" class="popup__button popup__button--close">x</button>
+        <button aria-label="poprzednie zdjęcie, previus pfoto" class="popup__button popup__button--left"><</button>
+        <button aria-label="następne zdjęcie, next pfoto" class="popup__button popup__button--right">></button>
+      </div>
+
+
+    </section>
+
+
+    <footer class="footer">
+      <p class="footer__botom-text year">
+        &copy; <span class="footer__year"></span> Fotonotek.pl
+      </p>
+      <p class="footer__botom-text"><a href="linkandlicense.html" class="links">Link & Licens</a></p>
+    </footer>
+  </main>
+  <script src="dist/js/script.min.js"></script>
+  <script src="dist/js/script_for_gallerys.min.js"></script>
+
+</body>
+
+</html>
